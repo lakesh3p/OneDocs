@@ -1,0 +1,30 @@
+{
+  "name": "onedocs-app",
+  "version": "1.0.0",
+  "description": "OneDocs - Professional Document Editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "OneDocs Team",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^28.0.0"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.onedocs.app",
+    "mac": {
+      "target": "dmg",
+      "category": "public.app-category.productivity"
+    },
+    "files": [
+      "**/*"
+    ]
+  }
+}

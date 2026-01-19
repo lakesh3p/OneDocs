@@ -1,0 +1,5 @@
+{
+  "name": "OneDocs",
+  "description": "A professional, feature-rich document editor with local file system access, robust theming, and extensive templates.",
+  "requestFramePermissions": []
+}
