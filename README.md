@@ -29,4 +29,9 @@ This project is distributed under the MIT License.
 
 ---
 
+Status: Alpha version.
+Current focus: Fixing the page creation engine.
+
+---
+
 Developed with ❤️ by the OneDocs Team!
