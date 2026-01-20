@@ -61,7 +61,6 @@ const App: React.FC = () => {
     loadFonts();
   }, []);
 
-  // Theme Handling
   useEffect(() => {
     const root = window.document.documentElement;
     const isDark = config.theme === 'dark' || 
