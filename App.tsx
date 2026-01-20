@@ -41,7 +41,6 @@ const App: React.FC = () => {
 
   const recognitionRef = useRef<any>(null);
 
-  // Load System Fonts
   useEffect(() => {
     const loadFonts = async () => {
       if ('queryLocalFonts' in window) {
