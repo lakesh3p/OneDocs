@@ -43,7 +43,6 @@ export interface Comment {
 
 export type TabName = 'File' | 'Home' | 'Insert' | 'Layout' | 'Review' | 'View';
 
-// Extend Window for libraries
 declare global {
   interface Window {
     mammoth: any;
