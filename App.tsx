@@ -73,7 +73,6 @@ const App: React.FC = () => {
     }
   }, [config.theme]);
 
-  // Load Recent Files
   useEffect(() => {
     const saved = localStorage.getItem('onedocs_recent_files');
     if (saved) {
