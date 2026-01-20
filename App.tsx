@@ -158,7 +158,6 @@ const App: React.FC = () => {
               span.className = 'comment-highlight';
               span.setAttribute('data-comment-id', id);
               
-              // Wrap selection
               const range = selection.getRangeAt(0);
               range.surroundContents(span);
               
