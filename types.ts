@@ -2,7 +2,7 @@ export interface DocumentMetadata {
   id: string;
   title: string;
   lastModified: number;
-  preview?: string; // Short snippet
+  preview?: string;
 }
 
 export interface EditorConfig {
