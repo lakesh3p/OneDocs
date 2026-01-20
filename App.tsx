@@ -82,7 +82,6 @@ const App: React.FC = () => {
     }
   }, []);
 
-  // Update Stats
   useEffect(() => {
     const text = content.replace(/<[^>]*>/g, ' ');
     setWordCount(text.trim() === '' ? 0 : text.trim().split(/\s+/).length);
