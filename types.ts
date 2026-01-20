@@ -23,7 +23,7 @@ export interface EditorConfig {
 export type FileHandle = FileSystemFileHandle | null;
 
 export interface RecentFile extends DocumentMetadata {
-  content: string; // Storing content in localStorage for simplicity
+  content: string;
 }
 
 export interface Template {
