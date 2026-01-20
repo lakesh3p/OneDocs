@@ -15,7 +15,6 @@ function createWindow() {
 
   win.loadFile('index.html');
   
-  // Убираем стандартное меню сверху (Файл, Правка и т.д.), чтобы было красивее
   win.setMenuBarVisibility(false);
 }
 
