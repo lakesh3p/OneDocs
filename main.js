@@ -8,7 +8,7 @@ function createWindow() {
     title: "OneDocs",
     webPreferences: {
       nodeIntegration: true,
-      contextIsolation: false, // Нужно для работы сохранения файлов
+      contextIsolation: false,
       enableRemoteModule: true
     }
   });
