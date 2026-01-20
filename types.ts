@@ -38,7 +38,7 @@ export interface Comment {
   text: string;
   timestamp: number;
   author: string;
-  highlightId: string; // ID linking to the span in the content
+  highlightId: string;
 }
 
 export type TabName = 'File' | 'Home' | 'Insert' | 'Layout' | 'Review' | 'View';
